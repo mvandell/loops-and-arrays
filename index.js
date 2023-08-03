@@ -24,3 +24,12 @@ for (i=0; i<str.length; i++) {
     }
 }
 console.log(str + " has " + consonants + " consonants and " + vowels + " vowels");
+
+//Reverse Array
+//Using a for loop, iterate over an array to create a new array in reverse order
+const straightArr = [1,2,3];
+const reverseArr = [];
+for (i=straightArr.length - 1; i >= 0; i--) {
+    reverseArr.push(straightArr[i]);
+}
+console.log(reverseArr);
